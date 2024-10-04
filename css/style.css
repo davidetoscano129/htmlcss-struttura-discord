@@ -1,4 +1,5 @@
-.header-block {
+/* BACKGROUND QUALITIES */
+.header-section {
     background-color: aquamarine;
     height: 100px;
 }
@@ -21,7 +22,78 @@
     height: 300px;
 }
 
-.sixth-section .footer-section {
-    background-color: darkgrey;
+.sixth-section {
+    background-color: rgb(10, 4, 4);
     height: 200px;
 }
+
+.footer-section {
+    background-color: black;
+}
+/* /BACKGROUND QUALITIES */
+
+
+/* CONTAINER QUALITIES */
+.container {
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+
+.header-container {
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+
+.first-container {
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+
+.second-container {
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+
+.third-container {
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+
+.fourth-container {
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+
+.fifth-container {
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+
+.sixth-container{
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+
+.footer-container {
+    width: ;
+    border: ;
+    padding: ;
+    margin: ;
+}
+/* /CONTAINER QUALITIES */
