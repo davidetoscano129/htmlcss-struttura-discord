@@ -1,99 +1,58 @@
-/* BACKGROUND QUALITIES */
-.header-section {
-    background-color: aquamarine;
-    height: 100px;
-}
-
-.fisrt-section {
-    background-color: blue;
-    height: 300px;
-
-}
-
-.second-section,
-.fourth-section {
-    background-color: white;
-    height: 300px;
-}
-
-.third-section,
-.fifth-section {
-    background-color: gray;
-    height: 300px;
-}
-
-.sixth-section {
-    background-color: rgb(10, 4, 4);
-    height: 200px;
-}
-
-.footer-section {
-    background-color: black;
-}
-/* /BACKGROUND QUALITIES */
-
-
-/* CONTAINER QUALITIES */
-.container {
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+/* HEADER */
+header {
+    background-color: rgb(112, 187, 231);
+    padding: 10px 0;
 }
 
 .header-container {
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+    background-color: rgb(216, 142, 5);
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    border: 2px solid black;
+    min-height: auto;
 }
 
-.first-container {
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+.row {
+    display: flex;
 }
 
-.second-container {
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+[class^="col-"] {
+    border: 2px dashed black;
 }
 
-.third-container {
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+.col-left {
+    width: 20%;
+    text-align: left;
 }
 
-.fourth-container {
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+.col-middle {
+    width: 60%;
+    text-align: center;
 }
 
-.fifth-container {
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+.col-right {
+    width: 20%;
+    text-align: right;
 }
 
-.sixth-container{
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+/* HEADER */
+
+/* MAIN */
+section {
+    background-color: blue;
+    padding: 30px 0;
+
 }
 
-.footer-container {
-    width: ;
-    border: ;
-    padding: ;
-    margin: ;
+#first-container {
+    background-color: pink;
+    width: 65%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    border: 2px solid black;
+    min-height: 200px;
+
 }
-/* /CONTAINER QUALITIES */
